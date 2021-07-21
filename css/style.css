@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100vw;
+    height: 15vh;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    align-items: center;
+}
+
+#logo {
+    height: 13vh;
+    margin-left: 0.5vw;
+    border-radius: 20px;
+}
+
+#mainBody {
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#mainBody button {
+    width: 20vw;
+    height: 10vh;
+    grid-area: 2 / 2;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    box-shadow: 5px 8px rgb(173, 172, 172);
+}
+
+.elementPlacement {
+    grid-area: 3 / 2;
+}
